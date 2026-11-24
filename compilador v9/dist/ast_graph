@@ -1,0 +1,113 @@
+digraph {
+	0 [label=Program]
+	1 [label=statements]
+	0 -> 1
+	2 [label=FuncDecl]
+	1 -> 2
+	3 [label=return_type]
+	2 -> 3
+	4 [label=NoneType]
+	3 -> 4
+	5 [label=name]
+	2 -> 5
+	6 [label=suma]
+	5 -> 6
+	7 [label=params]
+	2 -> 7
+	8 [label=a]
+	7 -> 8
+	9 [label=b]
+	7 -> 9
+	10 [label=body]
+	2 -> 10
+	11 [label=Return]
+	10 -> 11
+	12 [label=value]
+	11 -> 12
+	13 [label=BinOp]
+	12 -> 13
+	14 [label=left]
+	13 -> 14
+	15 [label=Identifier]
+	14 -> 15
+	16 [label=name]
+	15 -> 16
+	17 [label=a]
+	16 -> 17
+	18 [label=op]
+	13 -> 18
+	19 [label=PLUS]
+	18 -> 19
+	20 [label=right]
+	13 -> 20
+	21 [label=Identifier]
+	20 -> 21
+	22 [label=name]
+	21 -> 22
+	23 [label=b]
+	22 -> 23
+	24 [label=VarDecl]
+	1 -> 24
+	25 [label=type]
+	24 -> 25
+	26 [label=int]
+	25 -> 26
+	27 [label=name]
+	24 -> 27
+	28 [label=x]
+	27 -> 28
+	29 [label=value]
+	24 -> 29
+	30 [label=FuncCall]
+	29 -> 30
+	31 [label=name]
+	30 -> 31
+	32 [label=suma]
+	31 -> 32
+	33 [label=args]
+	30 -> 33
+	34 [label=Number]
+	33 -> 34
+	35 [label=value]
+	34 -> 35
+	36 [label=3]
+	35 -> 36
+	37 [label=Number]
+	33 -> 37
+	38 [label=value]
+	37 -> 38
+	39 [label=4]
+	38 -> 39
+	40 [label=VarDecl]
+	1 -> 40
+	41 [label=type]
+	40 -> 41
+	42 [label=int]
+	41 -> 42
+	43 [label=name]
+	40 -> 43
+	44 [label=y]
+	43 -> 44
+	45 [label=value]
+	40 -> 45
+	46 [label=FuncCall]
+	45 -> 46
+	47 [label=name]
+	46 -> 47
+	48 [label=suma]
+	47 -> 48
+	49 [label=args]
+	46 -> 49
+	50 [label=Identifier]
+	49 -> 50
+	51 [label=name]
+	50 -> 51
+	52 [label=x]
+	51 -> 52
+	53 [label=Number]
+	49 -> 53
+	54 [label=value]
+	53 -> 54
+	55 [label=10]
+	54 -> 55
+}
